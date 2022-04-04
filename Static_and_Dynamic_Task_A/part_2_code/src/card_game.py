@@ -20,11 +20,11 @@ class CardGame:
     else:
       return False
 
-  def highest_card(self, card1 , card2):
-    if card1.value > card2.value:
-        return card1
+  def highest_card(card , card1):
+    if card.value > card1.value:
+        return card
     else:
-        return card2
+        return card1
   
 
   def cards_total(cardgame):
