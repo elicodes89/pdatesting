@@ -20,8 +20,11 @@ class CardGame:
     else:
       return False
 
-  def highest_card(self, card):
-    return card.symbol == "ace"
+  def highest_card(self, card1 , card2):
+    if card1.value > card2.value:
+        return card1
+    else:
+        return card2
   
 
   def cards_total(cardgame):

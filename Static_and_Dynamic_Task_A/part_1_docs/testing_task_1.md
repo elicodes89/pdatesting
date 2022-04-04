@@ -18,15 +18,16 @@ class CardGame:
 #there is no constructor defined. Python needs a function with the __init__ constructor for the classes to be initialized by this method.
 
   def check_for_ace(self, card):
+    #the function is expecting to return a True or False value. I need to amend the if statement in order to compare the actual symbol of the card with values within certain range, that in this case is anything equal or higher than 1.
     if card.value = 1:
       return True
-    else #:
+    else #: missing colon
       return False
    
 
-  dif highest_card(self, card1 card2): #spelling mistake on "dif" this would stop the test from running
+  dif highest_card(self, card1 card2): #spelling mistake on "dif" this would stop the test from running. Also,
   if card1.value > card2.value:
-    return card
+    return card1 #card1 is missing
   else:
     return card2
   
