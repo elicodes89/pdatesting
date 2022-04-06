@@ -30,5 +30,5 @@ class CardGame:
   def cards_total(cardgame):
     total = 0
     for card in cardgame.cards:
-      total += (card.value)
+      total += card.value
     return total    

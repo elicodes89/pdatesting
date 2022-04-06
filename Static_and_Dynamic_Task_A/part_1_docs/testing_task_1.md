@@ -25,7 +25,7 @@ class CardGame:
       return False
    
 
-  dif highest_card(self, card1 card2): #spelling mistake on "dif" this would stop the test from running. Also,
+  dif highest_card(self, card1 card2): #spelling mistake on "dif" this would stop the test from running. Also, the function would need to take card and card1 as arguments.
   if card1.value > card2.value:
     return card1 #card1 is missing
   else:
@@ -33,10 +33,10 @@ class CardGame:
   
 
 
-def cards_total(self, cards):
+def cards_total(self, cards):#cardstotal should come from cardgame. As the cardgame is the object that holds a list of the complete set of cards.
   total #there is no operator. there is no value assigment and the function does not know what total actually is
-  for card in cards:
+  for card in cards:#again, for each card of the cardgame, not cards
     total += card.value
-    return "You have a total of" + total
+    return "You have a total of" + total #again, total would need an operator to make this return work and also delete the string.
   
 ```
